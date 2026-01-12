@@ -58,9 +58,57 @@ dl-notebooks/
 
 ## 🧠 Prerequisites
 
+### System Requirements
 * Python 3.9+
+* pip (Python package manager)
+
+### Knowledge Requirements
 * Basic PyTorch knowledge
 * Familiarity with neural networks
+
+### Installation
+
+1. **Clone the repository** (if you have access):
+   ```bash
+   git clone https://github.com/AvrahamRaviv/dl-notebooks.git
+   cd dl-notebooks
+   ```
+
+2. **Create a virtual environment** (recommended):
+   ```bash
+   python -m venv venv
+   
+   # On macOS/Linux:
+   source venv/bin/activate
+   
+   # On Windows:
+   venv\Scripts\activate
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Launch Jupyter Notebook**:
+   ```bash
+   jupyter notebook
+   ```
+   
+   Or use JupyterLab:
+   ```bash
+   jupyter lab
+   ```
+
+### Alternative: Using Conda
+
+If you prefer using conda:
+
+```bash
+conda create -n dl-notebooks python=3.9
+conda activate dl-notebooks
+pip install -r requirements.txt
+```
 
 ---
 

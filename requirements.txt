@@ -1,0 +1,21 @@
+# Core dependencies for Deep Learning Notebooks
+# Python 3.9+ required
+
+# Numerical computing
+numpy>=1.21.0
+
+# Deep Learning framework
+torch>=1.12.0
+
+# Machine Learning utilities
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.5.0
+
+# Jupyter Notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional but recommended
+seaborn>=0.11.0
